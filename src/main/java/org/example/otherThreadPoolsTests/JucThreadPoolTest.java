@@ -1,4 +1,4 @@
-package org.example;
+package org.example.otherThreadPoolsTests;
 
 import java.util.concurrent.*;
 import java.util.logging.*;

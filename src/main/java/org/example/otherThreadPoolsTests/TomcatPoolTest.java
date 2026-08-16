@@ -1,11 +1,10 @@
-package org.example;
+package org.example.otherThreadPoolsTests;
 
 import org.apache.tomcat.util.threads.ThreadPoolExecutor;
 import org.apache.tomcat.util.threads.TaskQueue;
 import org.apache.tomcat.util.threads.TaskThreadFactory;
 
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.*;
 
 public class TomcatPoolTest {

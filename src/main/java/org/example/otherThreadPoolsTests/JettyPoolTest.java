@@ -1,10 +1,8 @@
-package org.example;
+package org.example.otherThreadPoolsTests;
 
 import org.eclipse.jetty.util.thread.QueuedThreadPool;
-import org.eclipse.jetty.util.thread.ThreadPool;
 
 import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.TimeUnit;
 import java.util.logging.*;
 
 public class JettyPoolTest {
@@ -45,7 +43,7 @@ public class JettyPoolTest {
                     System.out.printf("[Task %d] Interrupted%n", taskId);
                 }
             });
-            Thread.sleep(100);
+            Thread.sleep(200);
         }
 
         System.out.println("=== All tasks submitted. Waiting... ===");
